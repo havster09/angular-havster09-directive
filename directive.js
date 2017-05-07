@@ -1,4 +1,7 @@
 angular.module('havenramos.my-directive', []).
-directive('btfMyDirective', function () {
-  // implementation goes here
+directive('havenDirective', function () {
+  return {
+    restrict: 'E',
+    template: '<h3>Haven directive Time</h3>'
+  }
 });
